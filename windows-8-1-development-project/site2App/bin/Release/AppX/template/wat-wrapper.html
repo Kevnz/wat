@@ -1,0 +1,116 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>site2App</title>
+
+    <!-- WinJS references -->
+    <script src="//Microsoft.WinJS.2.0/js/base.js"></script>
+    <script src="//Microsoft.WinJS.2.0/js/ui.js"></script>
+
+    <!-- App Specific references -->
+    <script src="/js/default.js"></script>
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    <!-- Vendor Library references -->
+    <script src="/template/vendor/jszip/jszip.js"></script>
+    <script src="/template/vendor/jszip/jszip-load.js"></script>
+    <script src="/template/vendor/jszip/jszip-inflate.js"></script>
+
+>>>>>>> release-0.6
+=======
+>>>>>>> release-1.0.0
+    <!-- Web App Template references -->
+    <link href="/template/css/base.css" rel="stylesheet" />
+
+    <script src="/template/js/wat.js"></script>
+    <script src="/template/js/log.js"></script>
+    <script src="/template/js/styles.js"></script>
+    <script src="/template/js/nav.js"></script>
+    <script src="/template/js/share.js"></script>
+    <script src="js/NotificationHub.js"></script>
+    <script src="/template/js/notify.js"></script>
+    <script src="/template/js/tiles.js"></script>
+    <script src="/template/js/settings.js"></script>
+    <script src="/template/js/search.js"></script>
+    <script src="/template/js/offline.js"></script>
+
+    <script>
+        // Add initialization event handlers
+        WinJS.Application.addEventListener("activated", WAT.activationHandler, false);
+        window.addEventListener("DOMContentLoaded", function () {
+            WAT.init({
+                configFile: "config/config.json",
+                stage: document.getElementById("stage"),
+                webView: document.getElementById("main-view"),
+<<<<<<< HEAD
+=======
+                offlineView: document.getElementById("offline-view"),
+                dialogView: document.getElementById("dialog-view"),
+                closeButton: document.getElementById("close"),
+<<<<<<< HEAD
+>>>>>>> release-0.6
+                progressBar: document.getElementById("page-load-progress"),
+=======
+                loadingWrapper: document.getElementById("loading-wrapper"),
+                // You can disable the extended splash screen by commenting out the line below...
+                extendedSplashScreen: document.getElementById("extendedSplashScreen"),
+>>>>>>> release-1.0.0
+                appBar: document.getElementById("appBar"),
+                navBar: document.getElementById("navBar"),
+                backButton: document.getElementById("back")
+            });
+        }, false);
+    </script>
+</head>
+<body>
+    <div class="stage" id="stage">
+        <x-ms-webview id="main-view"></x-ms-webview>
+<<<<<<< HEAD
+=======
+        <x-ms-webview id="offline-view"></x-ms-webview>
+<<<<<<< HEAD
+>>>>>>> release-0.6
+        <progress id="page-load-progress" class="loading-progress"></progress>
+=======
+        <div id="loading-wrapper" class="loading-wrapper">
+            <progress id="page-load-progress" class="loading-progress"></progress>
+        </div>
+>>>>>>> release-1.0.0
+    </div>
+
+    <div id="backbutton-wrapper" style="display: none">
+        <button id="back" class="win-backbutton">Back</button>
+<<<<<<< HEAD
+        <!--<button id="backbutton-button" class="win-backbutton">Back</button>-->
+=======
+>>>>>>> release-0.6
+    </div>
+
+    <div>
+        <div id="navBar"></div>
+    </div>
+
+    <div data-win-control="WinJS.UI.AppBar" id="appBar"></div>
+<<<<<<< HEAD
+=======
+
+    <div id="extendedSplashScreen" class="extendedSplashScreen">
+        <img class="extendedSplashImage" src="/images/splashscreen.scale-100.png" alt="Launching..." />
+        <progress class="loading-progress"></progress>
+    </div>
+
+    <div id="modal-stage" class="stage overlay-stage">
+        <x-ms-webview id="dialog-view" class="modal-content"></x-ms-webview>
+        <button id="close" class="win-closebutton">X</button>
+    </div>
+<<<<<<< HEAD
+    
+>>>>>>> release-0.6
+=======
+
+>>>>>>> release-1.0.0
+</body>
+</html>

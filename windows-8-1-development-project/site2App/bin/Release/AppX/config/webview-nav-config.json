@@ -1,0 +1,127 @@
+﻿{
+	"templateVersion": ".6",
+	"homeURL": "https://wat-docs.azurewebsites.net",
+	"navigation": {
+		"hideOnPageBackButton": false,
+		"hideBackButtonOnMatch": [
+			"{baseURL}/Json#livetiles"
+		]
+	},
+	"logging": {
+		"enabled": true,
+		"level": 0,
+		"disableWithoutDebugger": false,
+		"hideTagDisplay": true,
+		"ignoreTags": [
+			"winjs"
+		],
+		"logErrorsForIgnoredTags": true
+	},
+	"share": {
+		"enabled": true,
+		"title": "WAT Documentation",
+		"url": "{currentURL}",
+		"screenshot": true,
+		"message": "Check out the Web Application Template for Windows Store apps {url}"
+	},
+	"offline": {
+		"message": "Oh no! It looks like you are offline. Please reconnect to use this application."
+	},
+	"appBar": {
+		"enabled": true,
+		"buttons": [
+			{
+				"label": "Settings",
+				"icon": "edit",
+				"action": "settings"
+			}
+		]
+	},
+	"navBar": {
+		"enabled": true,
+		"pageElements": {
+			"navElements": ".navbar-nav li",
+			"linkElement": "a",
+			"linkAttribute": "href",
+			"textElement": "a"
+		},
+		"maxRows": 2
+	},
+	"livetile": {
+		"enabled": true,
+		"periodicUpdate": 1
+	},
+	"notifications": {
+		"enabled": false,
+		"tilePollAddress": "News",
+		"TextField2": "{date}"
+	},
+	"redirects": {
+		"enabled": true,
+		"enableCaptureWindowOpen": true,
+		"refreshOnModalClose": true,
+		"rules": [
+			{
+				"pattern": "http://getbootstrap.com?",
+				"action": "showMessage",
+				"message": "Sorry, but you can't access this feature in the native app, please visit us online at http://wat-docs.azurewebsites.net"
+			},
+			{
+				"pattern": "*.microsoft.com*",
+				"action": "showMessage",
+				"message": "Redirecting you to the Microsoft website..."
+			},
+			{
+				"pattern": "http://msdn.microsoft.com/*",
+				"action": "popout"
+			},
+			{
+				"pattern": "{baseURL}/Json#search",
+				"action": "redirect",
+				"url": "http://bing.com"
+			},
+			{
+				"pattern": "*/drive_api/calculator/login",
+				"action": "modal",
+				"hideCloseButton": true,
+				"closeOnMatch": "*/drive_api/calculator/complete_login"
+			}
+		]
+	},
+	"settings": {
+		"enabled": true,
+		"privacyUrl": "http://wat-docs.azurewebsites.net/Privacy",
+		"items": [
+			{
+				"title": "Support",
+				"page": "http://wat-docs.azurewebsites.net/Support",
+				"loadInApp": true
+			},
+			{
+				"title": "Codeplex Site",
+				"page": "http://www.codeplex.com"
+			}
+		]
+	},
+	"styles": {
+		"setViewport": true,
+		"targetWidth": "",
+		"targetHeight": "800px",
+		"suppressTouchAction": false,
+		"extendedSplashScreenBackground": "#464646",
+		"hiddenElements":[
+			"header"
+		],
+		"wrapperCssFile": "/css/wrapper-styles.css",
+		"customCssFile": "/css/injected-styles.css",
+		"customCssString": "body {padding:0;font-size: 14pt;} .container{margin-left:120px; margin-right:0px;} .bs-header{height: 140px;padding-left:0px;} .bs-header h1{margin:0;margin-top:10px;} .bs-header h1{margin-right:0;} .bs-header p{display:none;}"
+	},
+	"search": {
+		"enabled": true,
+		"searchURL": "http://wat-docs.azurewebsites.net/search/?query="
+	},
+	"secondaryPin": {
+        "enabled": true
+	},
+	"styleTheme": "dark"
+}

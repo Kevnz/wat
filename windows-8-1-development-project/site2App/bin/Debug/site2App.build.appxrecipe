@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>LOVO-WORK</Machine>
+    <WindowsUser>jeffburt</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>WebAppTempateTestProject</PackageIdentityName>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\jeffburt\Documents\GitHub\Web App Template\windows-8-1-development-project\site2App\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\jeffburt\Documents\GitHub\Web App Template\windows-8-1-development-project\site2App\config\config.json">
+      <PackagePath>config\config.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jeffburt\Documents\GitHub\Web App Template\windows-8-1-development-project\site2App\css\default.css">
+      <PackagePath>css\default.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jeffburt\Documents\GitHub\Web App Template\windows-8-1-development-project\site2App\css\injected-styles.css">
+      <PackagePath>css\injected-styles.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jeffburt\Documents\GitHub\Web App Template\windows-8-1-development-project\site2App\css\wrapper-styles.css">
+      <PackagePath>css\wrapper-styles.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jeffburt\Documents\GitHub\Web App Template\windows-8-1-development-project\site2App\template\css\base.css">
+      <PackagePath>template\css\base.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jeffburt\Documents\GitHub\Web App Template\windows-8-1-development-project\site2App\template\css\ui-dark.css">
+      <PackagePath>template\css\ui-dark.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jeffburt\Documents\GitHub\Web App Template\windows-8-1-development-project\site2App\template\css\error.css">
+      <PackagePath>template\css\error.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jeffburt\Documents\GitHub\Web App Template\windows-8-1-development-project\site2App\template\css\ui-light.css">
+      <PackagePath>template\css\ui-light.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jeffburt\Documents\GitHub\Web App Template\windows-8-1-development-project\site2App\template\css\ui-blue-dark.css">
+      <PackagePath>template\css\ui-blue-dark.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jeffburt\Documents\GitHub\Web App Template\windows-8-1-development-project\site2App\template\css\ui-blue-light.css">
+      <PackagePath>template\css\ui-blue-light.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jeffburt\Documents\GitHub\Web App Template\windows-8-1-development-project\site2App\template\css\ui-green-dark.css">
+      <PackagePath>template\css\ui-green-dark.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jeffburt\Documents\GitHub\Web App Template\windows-8-1-development-project\site2App\template\css\ui-green-light.css">
+      <PackagePath>template\css\ui-green-light.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jeffburt\Documents\GitHub\Web App Template\windows-8-1-development-project\site2App\default.html">
+      <PackagePath>default.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jeffburt\Documents\GitHub\Web App Template\windows-8-1-development-project\site2App\offline-example.html">
+      <PackagePath>offline-example.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jeffburt\Documents\GitHub\Web App Template\windows-8-1-development-project\site2App\error-example.html">
+      <PackagePath>error-example.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jeffburt\Documents\GitHub\Web App Template\windows-8-1-development-project\site2App\template\error.html">
+      <PackagePath>template\error.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jeffburt\Documents\GitHub\Web App Template\windows-8-1-development-project\site2App\template\notify-settings.html">
+      <PackagePath>template\notify-settings.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jeffburt\Documents\GitHub\Web App Template\windows-8-1-development-project\site2App\template\offline.html">
+      <PackagePath>template\offline.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jeffburt\Documents\GitHub\Web App Template\windows-8-1-development-project\site2App\template\partials\page-loading.html">
+      <PackagePath>template\partials\page-loading.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jeffburt\Documents\GitHub\Web App Template\windows-8-1-development-project\site2App\template\wat-wrapper.html">
+      <PackagePath>template\wat-wrapper.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jeffburt\Documents\GitHub\Web App Template\windows-8-1-development-project\site2App\images\logo.scale-100.png">
+      <PackagePath>images\logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jeffburt\Documents\GitHub\Web App Template\windows-8-1-development-project\site2App\images\smalllogo.scale-100.png">
+      <PackagePath>images\smalllogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jeffburt\Documents\GitHub\Web App Template\windows-8-1-development-project\site2App\images\splashscreen.scale-100.png">
+      <PackagePath>images\splashscreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jeffburt\Documents\GitHub\Web App Template\windows-8-1-development-project\site2App\images\storelogo.scale-100.png">
+      <PackagePath>images\storelogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jeffburt\Documents\GitHub\Web App Template\windows-8-1-development-project\site2App\images\widelogo.scale-100.png">
+      <PackagePath>images\widelogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jeffburt\Documents\GitHub\Web App Template\windows-8-1-development-project\site2App\js\default.js">
+      <PackagePath>js\default.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jeffburt\Documents\GitHub\Web App Template\windows-8-1-development-project\site2App\template\js\header.js">
+      <PackagePath>template\js\header.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jeffburt\Documents\GitHub\Web App Template\windows-8-1-development-project\site2App\template\js\log.js">
+      <PackagePath>template\js\log.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jeffburt\Documents\GitHub\Web App Template\windows-8-1-development-project\site2App\template\js\nav.js">
+      <PackagePath>template\js\nav.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jeffburt\Documents\GitHub\Web App Template\windows-8-1-development-project\site2App\template\js\NotificationHub.js">
+      <PackagePath>template\js\NotificationHub.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jeffburt\Documents\GitHub\Web App Template\windows-8-1-development-project\site2App\template\js\notify-settings.js">
+      <PackagePath>template\js\notify-settings.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jeffburt\Documents\GitHub\Web App Template\windows-8-1-development-project\site2App\template\js\notify.js">
+      <PackagePath>template\js\notify.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jeffburt\Documents\GitHub\Web App Template\windows-8-1-development-project\site2App\template\js\offline.js">
+      <PackagePath>template\js\offline.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jeffburt\Documents\GitHub\Web App Template\windows-8-1-development-project\site2App\template\js\search.js">
+      <PackagePath>template\js\search.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jeffburt\Documents\GitHub\Web App Template\windows-8-1-development-project\site2App\template\js\settings.js">
+      <PackagePath>template\js\settings.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jeffburt\Documents\GitHub\Web App Template\windows-8-1-development-project\site2App\template\js\share.js">
+      <PackagePath>template\js\share.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jeffburt\Documents\GitHub\Web App Template\windows-8-1-development-project\site2App\template\js\styles.js">
+      <PackagePath>template\js\styles.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jeffburt\Documents\GitHub\Web App Template\windows-8-1-development-project\site2App\template\js\tiles.js">
+      <PackagePath>template\js\tiles.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jeffburt\Documents\GitHub\Web App Template\windows-8-1-development-project\site2App\template\js\wat.js">
+      <PackagePath>template\js\wat.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jeffburt\Documents\GitHub\Web App Template\windows-8-1-development-project\site2App\bin\Debug\ReverseMap\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.WinJS.2.0\1.0\">
+      <Name>Microsoft.WinJS.2.0</Name>
+      <Version>1.0.9600.16408</Version>
+      <Architecture>Neutral</Architecture>
+      <FrameworkIdentity>Name=Microsoft.WinJS.2.0, MinVersion=1.0.9600.16408</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.WinJS.2.0\1.0\Microsoft.WinJS.2.0.appx</AppxLocation>
+      <MoreInfo>http://go.microsoft.com/fwlink/%3fLinkId=260891</MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

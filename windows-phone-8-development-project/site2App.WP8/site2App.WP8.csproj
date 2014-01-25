@@ -1,0 +1,469 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B0EFF91F-724B-42F7-8D77-4E150B92E325}</ProjectGuid>
+    <ProjectTypeGuids>{C089C8C0-30E0-4E22-80C0-CE093F111A43};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>site2App.WP8</RootNamespace>
+    <AssemblyName>site2App.WP8</AssemblyName>
+    <TargetFrameworkIdentifier>WindowsPhone</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v8.0</TargetFrameworkVersion>
+    <SilverlightVersion>$(TargetFrameworkVersion)</SilverlightVersion>
+    <SilverlightApplication>true</SilverlightApplication>
+    <SupportedCultures>
+    </SupportedCultures>
+    <XapOutputs>true</XapOutputs>
+    <GenerateSilverlightManifest>true</GenerateSilverlightManifest>
+    <XapFilename>site2App.WP8_$(Configuration)_$(Platform).xap</XapFilename>
+    <SilverlightManifestTemplate>Properties\AppManifest.xml</SilverlightManifestTemplate>
+    <SilverlightAppEntry>site2App.WP8.App</SilverlightAppEntry>
+    <ValidateXaml>true</ValidateXaml>
+    <MinimumVisualStudioVersion>11.0</MinimumVisualStudioVersion>
+    <ThrowErrorsInValidation>true</ThrowErrorsInValidation>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\..\</SolutionDir>
+    <RestorePackages>true</RestorePackages>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Bin\Release</OutputPath>
+    <DefineConstants>TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Bin\x86\Debug</OutputPath>
+    <DefineConstants>DEBUG;TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Bin\x86\Release</OutputPath>
+    <DefineConstants>TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|ARM' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Bin\ARM\Debug</OutputPath>
+    <DefineConstants>DEBUG;TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|ARM' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Bin\ARM\Release</OutputPath>
+    <DefineConstants>TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="AboutPage.xaml.cs">
+      <DependentUpon>AboutPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="IconEnum\IconEnumHelper.cs" />
+    <Compile Include="LocalizedStrings.cs" />
+    <Compile Include="MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Overlay.xaml.cs">
+      <DependentUpon>Overlay.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resources\AppResources.Designer.cs" />
+    <Compile Include="SharePage.xaml.cs">
+      <DependentUpon>SharePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WebConfig\AppBarConfig.cs" />
+    <Compile Include="WebConfig\NavBarConfig.cs" />
+    <Compile Include="WebConfig\NotificationConfig.cs" />
+    <Compile Include="WebConfig\RedirectConfig.cs" />
+    <Compile Include="WebConfig\SearchConfig.cs" />
+    <Compile Include="WebConfig\SettingsConfig.cs" />
+    <Compile Include="WebConfig\ShareConfig.cs" />
+    <Compile Include="WebConfig\StylesConfig.cs" />
+    <Compile Include="WebConfig\WebConfig.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\Appbar\add.png" />
+    <Content Include="Assets\Appbar\cancel.png" />
+    <Content Include="Assets\Appbar\check.png" />
+    <Content Include="Assets\Appbar\delete.png" />
+    <Content Include="Assets\Appbar\enums\accept.png" />
+    <Content Include="Assets\Appbar\enums\accounts.png" />
+    <Content Include="Assets\Appbar\enums\add.png" />
+    <Content Include="Assets\Appbar\enums\addfriend.png" />
+    <Content Include="Assets\Appbar\enums\admin.png" />
+    <Content Include="Assets\Appbar\enums\aligncenter.png" />
+    <Content Include="Assets\Appbar\enums\alignleft.png" />
+    <Content Include="Assets\Appbar\enums\alignright.png" />
+    <Content Include="Assets\Appbar\enums\allapps.png" />
+    <Content Include="Assets\Appbar\enums\attach.png" />
+    <Content Include="Assets\Appbar\enums\attachcamera.png" />
+    <Content Include="Assets\Appbar\enums\audio.png" />
+    <Content Include="Assets\Appbar\enums\back.png" />
+    <Content Include="Assets\Appbar\enums\backtowindow.png" />
+    <Content Include="Assets\Appbar\enums\blockcontact.png" />
+    <Content Include="Assets\Appbar\enums\bold.png" />
+    <Content Include="Assets\Appbar\enums\bookmarks.png" />
+    <Content Include="Assets\Appbar\enums\browsephotos.png" />
+    <Content Include="Assets\Appbar\enums\bullets.png" />
+    <Content Include="Assets\Appbar\enums\calculator.png" />
+    <Content Include="Assets\Appbar\enums\calendar.png" />
+    <Content Include="Assets\Appbar\enums\calendarday.png" />
+    <Content Include="Assets\Appbar\enums\calendarreply.png" />
+    <Content Include="Assets\Appbar\enums\calendarweek.png" />
+    <Content Include="Assets\Appbar\enums\camera.png" />
+    <Content Include="Assets\Appbar\enums\cancel.png" />
+    <Content Include="Assets\Appbar\enums\caption.png" />
+    <Content Include="Assets\Appbar\enums\cc.png" />
+    <Content Include="Assets\Appbar\enums\cellphone.png" />
+    <Content Include="Assets\Appbar\enums\characters.png" />
+    <Content Include="Assets\Appbar\enums\clear.png" />
+    <Content Include="Assets\Appbar\enums\clearselection.png" />
+    <Content Include="Assets\Appbar\enums\clock.png" />
+    <Content Include="Assets\Appbar\enums\closepane.png" />
+    <Content Include="Assets\Appbar\enums\comment.png" />
+    <Content Include="Assets\Appbar\enums\contact.png" />
+    <Content Include="Assets\Appbar\enums\contact2.png" />
+    <Content Include="Assets\Appbar\enums\contactinfo.png" />
+    <Content Include="Assets\Appbar\enums\contactpresence.png" />
+    <Content Include="Assets\Appbar\enums\copy.png" />
+    <Content Include="Assets\Appbar\enums\crop.png" />
+    <Content Include="Assets\Appbar\enums\cut.png" />
+    <Content Include="Assets\Appbar\enums\delete.png" />
+    <Content Include="Assets\Appbar\enums\directions.png" />
+    <Content Include="Assets\Appbar\enums\disableupdates.png" />
+    <Content Include="Assets\Appbar\enums\disconnectdrive.png" />
+    <Content Include="Assets\Appbar\enums\dislike.png" />
+    <Content Include="Assets\Appbar\enums\dockbottom.png" />
+    <Content Include="Assets\Appbar\enums\dockleft.png" />
+    <Content Include="Assets\Appbar\enums\dockright.png" />
+    <Content Include="Assets\Appbar\enums\document.png" />
+    <Content Include="Assets\Appbar\enums\download.png" />
+    <Content Include="Assets\Appbar\enums\edit.png" />
+    <Content Include="Assets\Appbar\enums\emoji.png" />
+    <Content Include="Assets\Appbar\enums\emoji2.png" />
+    <Content Include="Assets\Appbar\enums\favorite.png" />
+    <Content Include="Assets\Appbar\enums\filter.png" />
+    <Content Include="Assets\Appbar\enums\find.png" />
+    <Content Include="Assets\Appbar\enums\flag.png" />
+    <Content Include="Assets\Appbar\enums\folder.png" />
+    <Content Include="Assets\Appbar\enums\font.png" />
+    <Content Include="Assets\Appbar\enums\fontcolor.png" />
+    <Content Include="Assets\Appbar\enums\fontdecrease.png" />
+    <Content Include="Assets\Appbar\enums\fontincrease.png" />
+    <Content Include="Assets\Appbar\enums\fontsize.png" />
+    <Content Include="Assets\Appbar\enums\forward.png" />
+    <Content Include="Assets\Appbar\enums\fourbars.png" />
+    <Content Include="Assets\Appbar\enums\fullscreen.png" />
+    <Content Include="Assets\Appbar\enums\globe.png" />
+    <Content Include="Assets\Appbar\enums\go.png" />
+    <Content Include="Assets\Appbar\enums\gotostart.png" />
+    <Content Include="Assets\Appbar\enums\gototoday.png" />
+    <Content Include="Assets\Appbar\enums\hangup.png" />
+    <Content Include="Assets\Appbar\enums\help.png" />
+    <Content Include="Assets\Appbar\enums\hidebcc.png" />
+    <Content Include="Assets\Appbar\enums\highlight.png" />
+    <Content Include="Assets\Appbar\enums\home.png" />
+    <Content Include="Assets\Appbar\enums\import.png" />
+    <Content Include="Assets\Appbar\enums\importall.png" />
+    <Content Include="Assets\Appbar\enums\important.png" />
+    <Content Include="Assets\Appbar\enums\italic.png" />
+    <Content Include="Assets\Appbar\enums\keyboard.png" />
+    <Content Include="Assets\Appbar\enums\leavechat.png" />
+    <Content Include="Assets\Appbar\enums\left.png" />
+    <Content Include="Assets\Appbar\enums\library.png" />
+    <Content Include="Assets\Appbar\enums\like.png" />
+    <Content Include="Assets\Appbar\enums\likedislike.png" />
+    <Content Include="Assets\Appbar\enums\link.png" />
+    <Content Include="Assets\Appbar\enums\list.png" />
+    <Content Include="Assets\Appbar\enums\mail.png" />
+    <Content Include="Assets\Appbar\enums\mail2.png" />
+    <Content Include="Assets\Appbar\enums\mailforward.png" />
+    <Content Include="Assets\Appbar\enums\mailreply.png" />
+    <Content Include="Assets\Appbar\enums\mailreplyall.png" />
+    <Content Include="Assets\Appbar\enums\map.png" />
+    <Content Include="Assets\Appbar\enums\mapdrive.png" />
+    <Content Include="Assets\Appbar\enums\mappin.png" />
+    <Content Include="Assets\Appbar\enums\memo.png" />
+    <Content Include="Assets\Appbar\enums\message.png" />
+    <Content Include="Assets\Appbar\enums\microphone.png" />
+    <Content Include="Assets\Appbar\enums\more.png" />
+    <Content Include="Assets\Appbar\enums\movetofolder.png" />
+    <Content Include="Assets\Appbar\enums\musicinfo.png" />
+    <Content Include="Assets\Appbar\enums\mute.png" />
+    <Content Include="Assets\Appbar\enums\newfolder.png" />
+    <Content Include="Assets\Appbar\enums\newwindow.png" />
+    <Content Include="Assets\Appbar\enums\next.png" />
+    <Content Include="Assets\Appbar\enums\onebar.png" />
+    <Content Include="Assets\Appbar\enums\openfile.png" />
+    <Content Include="Assets\Appbar\enums\openlocal.png" />
+    <Content Include="Assets\Appbar\enums\openpane.png" />
+    <Content Include="Assets\Appbar\enums\openwith.png" />
+    <Content Include="Assets\Appbar\enums\orientation.png" />
+    <Content Include="Assets\Appbar\enums\otheruser.png" />
+    <Content Include="Assets\Appbar\enums\outlinestar.png" />
+    <Content Include="Assets\Appbar\enums\page.png" />
+    <Content Include="Assets\Appbar\enums\page2.png" />
+    <Content Include="Assets\Appbar\enums\paste.png" />
+    <Content Include="Assets\Appbar\enums\pause.png" />
+    <Content Include="Assets\Appbar\enums\people.png" />
+    <Content Include="Assets\Appbar\enums\permissions.png" />
+    <Content Include="Assets\Appbar\enums\phone.png" />
+    <Content Include="Assets\Appbar\enums\phonebook.png" />
+    <Content Include="Assets\Appbar\enums\pictures.png" />
+    <Content Include="Assets\Appbar\enums\pin.png" />
+    <Content Include="Assets\Appbar\enums\placeholder.png" />
+    <Content Include="Assets\Appbar\enums\play.png" />
+    <Content Include="Assets\Appbar\enums\postupdate.png" />
+    <Content Include="Assets\Appbar\enums\preview.png" />
+    <Content Include="Assets\Appbar\enums\previewlink.png" />
+    <Content Include="Assets\Appbar\enums\previous.png" />
+    <Content Include="Assets\Appbar\enums\priority.png" />
+    <Content Include="Assets\Appbar\enums\protecteddocument.png" />
+    <Content Include="Assets\Appbar\enums\read.png" />
+    <Content Include="Assets\Appbar\enums\redo.png" />
+    <Content Include="Assets\Appbar\enums\refresh.png" />
+    <Content Include="Assets\Appbar\enums\remote.png" />
+    <Content Include="Assets\Appbar\enums\remove.png" />
+    <Content Include="Assets\Appbar\enums\rename.png" />
+    <Content Include="Assets\Appbar\enums\repair.png" />
+    <Content Include="Assets\Appbar\enums\repeatall.png" />
+    <Content Include="Assets\Appbar\enums\repeatone.png" />
+    <Content Include="Assets\Appbar\enums\reporthacked.png" />
+    <Content Include="Assets\Appbar\enums\reshare.png" />
+    <Content Include="Assets\Appbar\enums\right.png" />
+    <Content Include="Assets\Appbar\enums\rotate.png" />
+    <Content Include="Assets\Appbar\enums\rotatecamera.png" />
+    <Content Include="Assets\Appbar\enums\save.png" />
+    <Content Include="Assets\Appbar\enums\savelocal.png" />
+    <Content Include="Assets\Appbar\enums\scan.png" />
+    <Content Include="Assets\Appbar\enums\selectall.png" />
+    <Content Include="Assets\Appbar\enums\send.png" />
+    <Content Include="Assets\Appbar\enums\setlockscreen.png" />
+    <Content Include="Assets\Appbar\enums\settile.png" />
+    <Content Include="Assets\Appbar\enums\settings.png" />
+    <Content Include="Assets\Appbar\enums\shop.png" />
+    <Content Include="Assets\Appbar\enums\showbcc.png" />
+    <Content Include="Assets\Appbar\enums\showresults.png" />
+    <Content Include="Assets\Appbar\enums\shuffle.png" />
+    <Content Include="Assets\Appbar\enums\slideshow.png" />
+    <Content Include="Assets\Appbar\enums\solidstar.png" />
+    <Content Include="Assets\Appbar\enums\sort.png" />
+    <Content Include="Assets\Appbar\enums\stop.png" />
+    <Content Include="Assets\Appbar\enums\stopslideshow.png" />
+    <Content Include="Assets\Appbar\enums\street.png" />
+    <Content Include="Assets\Appbar\enums\switch.png" />
+    <Content Include="Assets\Appbar\enums\switchapps.png" />
+    <Content Include="Assets\Appbar\enums\sync.png" />
+    <Content Include="Assets\Appbar\enums\syncfolder.png" />
+    <Content Include="Assets\Appbar\enums\tag.png" />
+    <Content Include="Assets\Appbar\enums\target.png" />
+    <Content Include="Assets\Appbar\enums\threebars.png" />
+    <Content Include="Assets\Appbar\enums\touchpointer.png" />
+    <Content Include="Assets\Appbar\enums\trim.png" />
+    <Content Include="Assets\Appbar\enums\twobars.png" />
+    <Content Include="Assets\Appbar\enums\twopage.png" />
+    <Content Include="Assets\Appbar\enums\underline.png" />
+    <Content Include="Assets\Appbar\enums\undo.png" />
+    <Content Include="Assets\Appbar\enums\unfavorite.png" />
+    <Content Include="Assets\Appbar\enums\unpin.png" />
+    <Content Include="Assets\Appbar\enums\unsyncfolder.png" />
+    <Content Include="Assets\Appbar\enums\up.png" />
+    <Content Include="Assets\Appbar\enums\upload.png" />
+    <Content Include="Assets\Appbar\enums\uploadskydrive.png" />
+    <Content Include="Assets\Appbar\enums\video.png" />
+    <Content Include="Assets\Appbar\enums\videochat.png" />
+    <Content Include="Assets\Appbar\enums\view.png" />
+    <Content Include="Assets\Appbar\enums\viewall.png" />
+    <Content Include="Assets\Appbar\enums\volume.png" />
+    <Content Include="Assets\Appbar\enums\webcam.png" />
+    <Content Include="Assets\Appbar\enums\world.png" />
+    <Content Include="Assets\Appbar\enums\zerobars.png" />
+    <Content Include="Assets\Appbar\enums\zoom.png" />
+    <Content Include="Assets\Appbar\enums\zoomin.png" />
+    <Content Include="Assets\Appbar\enums\zoomout.png" />
+    <Content Include="Assets\Appbar\home.png" />
+    <Content Include="Assets\Appbar\pin.png" />
+    <Content Include="Assets\Appbar\refresh.png" />
+    <Content Include="Assets\Appbar\Select.png" />
+    <Content Include="Assets\Appbar\share.png" />
+    <Content Include="Assets\Appbar\share2.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Config\config.json" />
+    <Content Include="README_FIRST.txt" />
+    <Content Include="Toolkit.Content\ApplicationBar.Add.png" />
+    <Content Include="Toolkit.Content\ApplicationBar.Cancel.png" />
+    <Content Include="Toolkit.Content\ApplicationBar.Check.png" />
+    <Content Include="Toolkit.Content\ApplicationBar.Delete.png" />
+    <Content Include="Toolkit.Content\ApplicationBar.Select.png" />
+    <None Include="packages.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Properties\AppManifest.xml" />
+    <None Include="Properties\WMAppManifest.xml">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="About.html" />
+    <Content Include="Assets\ApplicationIcon.png" />
+    <Content Include="Assets\AlignmentGrid.png" />
+    <Content Include="Assets\Tiles\FlipCycleTileLarge.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Tiles\FlipCycleTileMedium.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Tiles\FlipCycleTileSmall.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Tiles\IconicTileMediumLarge.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Tiles\IconicTileSmall.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Config.xml" />
+    <Content Include="SplashScreenImage.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="AboutPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="MainPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Overlay.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SharePage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\AppResources.ar.resx" />
+    <EmbeddedResource Include="Resources\AppResources.be.resx" />
+    <EmbeddedResource Include="Resources\AppResources.bg.resx" />
+    <EmbeddedResource Include="Resources\AppResources.ca.resx" />
+    <EmbeddedResource Include="Resources\AppResources.cs.resx" />
+    <EmbeddedResource Include="Resources\AppResources.da.resx" />
+    <EmbeddedResource Include="Resources\AppResources.de.resx" />
+    <EmbeddedResource Include="Resources\AppResources.el.resx" />
+    <EmbeddedResource Include="Resources\AppResources.es.resx" />
+    <EmbeddedResource Include="Resources\AppResources.et.resx" />
+    <EmbeddedResource Include="Resources\AppResources.fa-IR.resx" />
+    <EmbeddedResource Include="Resources\AppResources.fi.resx" />
+    <EmbeddedResource Include="Resources\AppResources.fil.resx" />
+    <EmbeddedResource Include="Resources\AppResources.fr.resx" />
+    <EmbeddedResource Include="Resources\AppResources.he.resx" />
+    <EmbeddedResource Include="Resources\AppResources.hi.resx" />
+    <EmbeddedResource Include="Resources\AppResources.hr.resx" />
+    <EmbeddedResource Include="Resources\AppResources.hu.resx" />
+    <EmbeddedResource Include="Resources\AppResources.id.resx" />
+    <EmbeddedResource Include="Resources\AppResources.it.resx" />
+    <EmbeddedResource Include="Resources\AppResources.ja.resx" />
+    <EmbeddedResource Include="Resources\AppResources.kk.resx" />
+    <EmbeddedResource Include="Resources\AppResources.ko.resx" />
+    <EmbeddedResource Include="Resources\AppResources.lt.resx" />
+    <EmbeddedResource Include="Resources\AppResources.lv.resx" />
+    <EmbeddedResource Include="Resources\AppResources.mk-MK.resx" />
+    <EmbeddedResource Include="Resources\AppResources.mk.resx" />
+    <EmbeddedResource Include="Resources\AppResources.ms.resx" />
+    <EmbeddedResource Include="Resources\AppResources.nl.resx" />
+    <EmbeddedResource Include="Resources\AppResources.no.resx" />
+    <EmbeddedResource Include="Resources\AppResources.pl.resx" />
+    <EmbeddedResource Include="Resources\AppResources.pt-BR.resx" />
+    <EmbeddedResource Include="Resources\AppResources.pt-PT.resx" />
+    <EmbeddedResource Include="Resources\AppResources.resx" />
+    <EmbeddedResource Include="Resources\AppResources.ro.resx" />
+    <EmbeddedResource Include="Resources\AppResources.ru.resx" />
+    <EmbeddedResource Include="Resources\AppResources.sk.resx" />
+    <EmbeddedResource Include="Resources\AppResources.sl.resx" />
+    <EmbeddedResource Include="Resources\AppResources.sq.resx" />
+    <EmbeddedResource Include="Resources\AppResources.sr-Latn.resx" />
+    <EmbeddedResource Include="Resources\AppResources.sv.resx" />
+    <EmbeddedResource Include="Resources\AppResources.th.resx" />
+    <EmbeddedResource Include="Resources\AppResources.tr.resx" />
+    <EmbeddedResource Include="Resources\AppResources.uk.resx" />
+    <EmbeddedResource Include="Resources\AppResources.uz-Latn.resx" />
+    <EmbeddedResource Include="Resources\AppResources.vi.resx" />
+    <EmbeddedResource Include="Resources\AppResources.zh-Hans.resx" />
+    <EmbeddedResource Include="Resources\AppResources.zh-Hant.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Phone.Controls.Toolkit, Version=8.0.1.0, Culture=neutral, PublicKeyToken=b772ad94eb9ca604, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>References\Microsoft.Phone.Controls.Toolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>References\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="References\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\$(TargetFrameworkIdentifier)\$(TargetFrameworkVersion)\Microsoft.$(TargetFrameworkIdentifier).$(TargetFrameworkVersion).Overrides.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\$(TargetFrameworkIdentifier)\$(TargetFrameworkVersion)\Microsoft.$(TargetFrameworkIdentifier).CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions />
+  <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />
+</Project>

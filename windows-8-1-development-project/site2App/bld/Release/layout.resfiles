@@ -1,0 +1,63 @@
+config\config.json
+config\webview-nav-config.json
+css\default.css
+<<<<<<< HEAD
+=======
+css\injected-styles.css
+<<<<<<< HEAD
+>>>>>>> release-0.6
+=======
+css\wrapper-styles.css
+>>>>>>> release-1.0.0
+default.html
+images\logo.scale-100.png
+images\secondary-square.png
+images\secondary-wide.jpg
+images\smalllogo.scale-100.png
+images\splashscreen.scale-100.png
+images\storelogo.scale-100.png
+images\widelogo.scale-100.png
+js\default.js
+offline-example.html
+partials\page-loading.html
+template\css\base.css
+template\css\error.css
+<<<<<<< HEAD
+=======
+template\css\ui-blue-dark.css
+template\css\ui-blue-light.css
+template\css\ui-dark.css
+template\css\ui-green-dark.css
+template\css\ui-green-light.css
+<<<<<<< HEAD
+>>>>>>> release-0.6
+=======
+template\css\ui-light.css
+>>>>>>> release-1.0.0
+template\error.html
+template\js\log.js
+template\js\nav.js
+template\js\NotificationHub.js
+template\js\notify.js
+template\js\notify-settings.js
+template\js\offline.js
+template\js\search.js
+template\js\settings.js
+template\js\share.js
+template\js\styles.js
+template\js\tiles.js
+template\js\wat.js
+template\notify-settings.html
+template\offline.html
+<<<<<<< HEAD
+template\privacy.html
+<<<<<<< HEAD
+=======
+template\vendor\jszip\jszip.js
+template\vendor\jszip\jszip-deflate.js
+template\vendor\jszip\jszip-inflate.js
+template\vendor\jszip\jszip-load.js
+>>>>>>> release-0.6
+=======
+>>>>>>> release-1.0.0
+template\wat-wrapper.html

@@ -1,0 +1,45 @@
+C:\Users\jeffburt\Documents\GitHub\site2App\site2App\bin\Release\resources.pri
+C:\Users\jeffburt\Documents\GitHub\site2App\site2App\bin\Release\AppxManifest.xml
+C:\Users\jeffburt\Documents\GitHub\site2App\site2App\bin\Release\site2App.build.appxrecipe
+C:\Users\jeffburt\Documents\GitHub\site2App\site2App\bld\Release\priconfig.xml
+C:\Users\jeffburt\Documents\GitHub\site2App\site2App\bld\Release\priconfig.xml.intermediate
+C:\Users\jeffburt\Documents\GitHub\site2App\site2App\bld\Release\layout.resfiles
+C:\Users\jeffburt\Documents\GitHub\site2App\site2App\bld\Release\layout.resfiles.intermediate
+C:\Users\jeffburt\Documents\GitHub\site2App\site2App\bld\Release\resources.resfiles
+C:\Users\jeffburt\Documents\GitHub\site2App\site2App\bld\Release\resources.resfiles.intermediate
+C:\Users\jeffburt\Documents\GitHub\site2App\site2App\bld\Release\pri.resfiles
+C:\Users\jeffburt\Documents\GitHub\site2App\site2App\bld\Release\pri.resfiles.intermediate
+C:\Users\jeffburt\Documents\GitHub\site2App\site2App\bld\Release\qualifiers.txt
+C:\Users\jeffburt\Documents\GitHub\site2App\site2App\bld\Release\qualifiers.txt.intermediate
+C:\Users\jeffburt\Documents\GitHub\site2App\site2App\bld\Release\MultipleQualifiersPerDimensionFound.txt
+C:\Users\jeffburt\Documents\GitHub\site2App\site2App\bld\Release\ProjectArchitectures.txt
+C:\Users\Ted\Source\Repos\Web App Template\development-project\site2App\bin\Release\ReverseMap\resources.pri
+C:\Users\Ted\Source\Repos\Web App Template\development-project\site2App\bin\Release\AppxManifest.xml
+C:\Users\Ted\Source\Repos\Web App Template\development-project\site2App\bin\Release\site2App.build.appxrecipe
+C:\Users\Ted\Source\Repos\Web App Template\development-project\site2App\bld\Release\priconfig.xml
+C:\Users\Ted\Source\Repos\Web App Template\development-project\site2App\bld\Release\priconfig.xml.intermediate
+C:\Users\Ted\Source\Repos\Web App Template\development-project\site2App\bld\Release\layout.resfiles
+C:\Users\Ted\Source\Repos\Web App Template\development-project\site2App\bld\Release\layout.resfiles.intermediate
+C:\Users\Ted\Source\Repos\Web App Template\development-project\site2App\bld\Release\resources.resfiles
+C:\Users\Ted\Source\Repos\Web App Template\development-project\site2App\bld\Release\resources.resfiles.intermediate
+C:\Users\Ted\Source\Repos\Web App Template\development-project\site2App\bld\Release\pri.resfiles
+C:\Users\Ted\Source\Repos\Web App Template\development-project\site2App\bld\Release\pri.resfiles.intermediate
+C:\Users\Ted\Source\Repos\Web App Template\development-project\site2App\bld\Release\qualifiers.txt
+C:\Users\Ted\Source\Repos\Web App Template\development-project\site2App\bld\Release\qualifiers.txt.intermediate
+C:\Users\Ted\Source\Repos\Web App Template\development-project\site2App\bld\Release\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Ted\Source\Repos\Web App Template\development-project\site2App\bld\Release\ProjectArchitectures.txt
+C:\Users\Jordan\Desktop\projects\Web%20App%20Template\development-project\site2App\bin\Release\ReverseMap\resources.pri
+C:\Users\Jordan\Desktop\projects\Web%20App%20Template\development-project\site2App\bin\Release\AppxManifest.xml
+C:\Users\Jordan\Desktop\projects\Web%20App%20Template\development-project\site2App\bin\Release\site2App.build.appxrecipe
+C:\Users\Jordan\Desktop\projects\Web%20App%20Template\development-project\site2App\bld\Release\priconfig.xml
+C:\Users\Jordan\Desktop\projects\Web%20App%20Template\development-project\site2App\bld\Release\priconfig.xml.intermediate
+C:\Users\Jordan\Desktop\projects\Web%20App%20Template\development-project\site2App\bld\Release\layout.resfiles
+C:\Users\Jordan\Desktop\projects\Web%20App%20Template\development-project\site2App\bld\Release\layout.resfiles.intermediate
+C:\Users\Jordan\Desktop\projects\Web%20App%20Template\development-project\site2App\bld\Release\resources.resfiles
+C:\Users\Jordan\Desktop\projects\Web%20App%20Template\development-project\site2App\bld\Release\resources.resfiles.intermediate
+C:\Users\Jordan\Desktop\projects\Web%20App%20Template\development-project\site2App\bld\Release\pri.resfiles
+C:\Users\Jordan\Desktop\projects\Web%20App%20Template\development-project\site2App\bld\Release\pri.resfiles.intermediate
+C:\Users\Jordan\Desktop\projects\Web%20App%20Template\development-project\site2App\bld\Release\qualifiers.txt
+C:\Users\Jordan\Desktop\projects\Web%20App%20Template\development-project\site2App\bld\Release\qualifiers.txt.intermediate
+C:\Users\Jordan\Desktop\projects\Web%20App%20Template\development-project\site2App\bld\Release\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Jordan\Desktop\projects\Web%20App%20Template\development-project\site2App\bld\Release\ProjectArchitectures.txt

@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Notifications</title>
+    
+    <!--
+    Copyright (c) Microsoft Corporation
+
+    All rights reserved.
+
+    Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License.  You may obtain a copy of the License at http://www.apache.org/licenses/LICENSE-2.0
+
+    THIS CODE IS PROVIDED *AS IS* BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION ANY IMPLIED WARRANTIES OR CONDITIONS OF TITLE, FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABLITY OR NON-INFRINGEMENT.
+
+    See the Apache Version 2.0 License for specific language governing permissions and limitations under the License.
+
+            -->
+
+</head>
+<body>
+    <script src="js/notify-settings.js"></script>
+
+    <div id="notifySettingsTemplate" data-win-control="WinJS.Binding.Template">
+        <div class="templateItem">
+            <div data-win-control="WinJS.UI.ToggleSwitch" data-win-bind="winControl.checked: subscribed; winControl.title: tag"></div>
+        </div>
+    </div>
+
+    <div class="notify-settings-flyout" data-win-control="WinJS.UI.SettingsFlyout" aria-label="Notifications" data-win-options="{settingsCommandId:'notifications'}">
+        <div class="win-header">
+            <button type="button" onclick="WinJS.UI.SettingsFlyout.show()" class="win-backbutton"></button>
+            <div class="win-label">Notifcations</div>
+            
+        </div>
+        <div class="win-content">
+            <div id="notifySettingsTemplateControlRenderTarget"></div>
+        </div>
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,11 @@
+﻿.win-backbutton {
+    background-color: transparent;
+    border-color: rgba(0,0,0,0.7);
+    color: rgb(0, 0, 0);
+    opacity: 0.6;
+}
+
+.win-backbutton:hover {
+    background-color: rgba(0,0,0,0.2);
+    opacity: 1;
+}

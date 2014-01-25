@@ -1,0 +1,362 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>CASTLE</Machine>
+    <WindowsUser>Ted</WindowsUser>
+    <SolutionConfiguration>Release|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>73210cb2-75c6-40ae-85c0-76d85b0305b1</PackageIdentityName>
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <RegisteredManifestChecksum>EB330A8DC80C299363AE67119458C1B26EF7EDC730D9F0B221497579ECC4C616</RegisteredManifestChecksum>
+=======
+    <RegisteredManifestChecksum>1B7976DFB927F4B5D797326C6B21097EF8D33903D71DBAB83630D573A111ED27</RegisteredManifestChecksum>
+>>>>>>> release-0.6
+    <RegisteredPackageMoniker>73210cb2-75c6-40ae-85c0-76d85b0305b1_1.0.0.0_neutral__1ytmh8esj28rc</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>73210cb2-75c6-40ae-85c0-76d85b0305b1_1ytmh8esj28rc!App</RegisteredUserModeAppID>
+=======
+    <RegisteredManifestChecksum>C9BF1CCCA0987339035F3B80C0AB4FFD15BDD4906CE68EA33CE1C285893EA2FC</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>73210cb2-75c6-40ae-85c0-76d85b0305b1_1.0.0.0_neutral__n662mxxhk5y58</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>73210cb2-75c6-40ae-85c0-76d85b0305b1_n662mxxhk5y58!App</RegisteredUserModeAppID>
+>>>>>>> release-1.0.0
+    <RegisteredPackageID>73210cb2-75c6-40ae-85c0-76d85b0305b1</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=C7829A9E-B748-4988-A40F-57086229409B</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Ted\Source\Repos\Web App Template\development-project\site2App\bin\Release\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+      <Modified>2013-11-11T21:48:36.996</Modified>
+=======
+      <Modified>2013-11-21T15:03:21.094</Modified>
+>>>>>>> release-0.6
+=======
+      <Modified>2013-11-26T16:52:38.405</Modified>
+>>>>>>> release-0.7
+=======
+      <Modified>2014-01-03T20:09:05.132</Modified>
+>>>>>>> release-1.0.0
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Ted\Source\Repos\Web App Template\development-project\site2App\config\config.json">
+      <PackagePath>config\config.json</PackagePath>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+      <Modified>2013-11-11T19:17:16.306</Modified>
+=======
+      <Modified>2013-11-21T14:46:05.785</Modified>
+>>>>>>> release-0.6
+=======
+      <Modified>2013-11-26T15:01:34.805</Modified>
+>>>>>>> release-0.7
+=======
+      <Modified>2014-01-06T14:10:26.308</Modified>
+>>>>>>> release-1.0.0
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ted\Source\Repos\Web App Template\development-project\site2App\config\webview-nav-config.json">
+      <PackagePath>config\webview-nav-config.json</PackagePath>
+      <Modified>2013-12-19T15:47:37.522</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ted\Source\Repos\Web App Template\development-project\site2App\css\default.css">
+      <PackagePath>css\default.css</PackagePath>
+      <Modified>2013-11-11T15:04:55.725</Modified>
+    </AppxPackagedFile>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <AppxPackagedFile Include="C:\Users\Ted\Source\Repos\Web App Template\development-project\site2App\template\css\base.css">
+      <PackagePath>template\css\base.css</PackagePath>
+      <Modified>2013-11-11T15:04:55.743</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ted\Source\Repos\Web App Template\development-project\site2App\template\css\error.css">
+      <PackagePath>template\css\error.css</PackagePath>
+      <Modified>2013-11-11T21:42:23.500</Modified>
+=======
+    <AppxPackagedFile Include="C:\Users\Ted\Source\Repos\Web App Template\development-project\site2App\css\injected-styles.css">
+=======
+    <AppxPackagedFile Include="C:\Users\Jordan\Desktop\projects\Web%2520App%2520Template\development-project\site2App\css\injected-styles.css">
+>>>>>>> release-0.7
+=======
+    <AppxPackagedFile Include="C:\Users\Ted\Source\Repos\Web App Template\development-project\site2App\css\injected-styles.css">
+>>>>>>> release-1.0.0
+      <PackagePath>css\injected-styles.css</PackagePath>
+      <Modified>2013-12-02T15:44:53.436</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ted\Source\Repos\Web App Template\development-project\site2App\css\wrapper-styles.css">
+      <PackagePath>css\wrapper-styles.css</PackagePath>
+      <Modified>2013-12-19T15:06:18.755</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ted\Source\Repos\Web App Template\development-project\site2App\template\css\base.css">
+      <PackagePath>template\css\base.css</PackagePath>
+      <Modified>2014-01-03T15:36:23.976</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ted\Source\Repos\Web App Template\development-project\site2App\template\css\ui-dark.css">
+      <PackagePath>template\css\ui-dark.css</PackagePath>
+      <Modified>2014-01-03T15:36:24.144</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ted\Source\Repos\Web App Template\development-project\site2App\template\css\error.css">
+      <PackagePath>template\css\error.css</PackagePath>
+      <Modified>2013-12-02T15:44:53.481</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ted\Source\Repos\Web App Template\development-project\site2App\template\css\ui-light.css">
+      <PackagePath>template\css\ui-light.css</PackagePath>
+      <Modified>2014-01-03T15:36:24.222</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ted\Source\Repos\Web App Template\development-project\site2App\template\css\ui-blue-dark.css">
+      <PackagePath>template\css\ui-blue-dark.css</PackagePath>
+      <Modified>2014-01-03T15:36:24.048</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ted\Source\Repos\Web App Template\development-project\site2App\template\css\ui-blue-light.css">
+      <PackagePath>template\css\ui-blue-light.css</PackagePath>
+      <Modified>2014-01-03T15:36:24.082</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ted\Source\Repos\Web App Template\development-project\site2App\template\css\ui-green-dark.css">
+      <PackagePath>template\css\ui-green-dark.css</PackagePath>
+      <Modified>2014-01-03T15:36:24.180</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ted\Source\Repos\Web App Template\development-project\site2App\template\css\ui-green-light.css">
+      <PackagePath>template\css\ui-green-light.css</PackagePath>
+<<<<<<< HEAD
+<<<<<<< HEAD
+      <Modified>2013-11-20T16:30:16.330</Modified>
+>>>>>>> release-0.6
+=======
+      <Modified>2013-11-25T14:44:28.494</Modified>
+>>>>>>> release-0.7
+=======
+      <Modified>2014-01-03T15:36:24.202</Modified>
+>>>>>>> release-1.0.0
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ted\Source\Repos\Web App Template\development-project\site2App\default.html">
+      <PackagePath>default.html</PackagePath>
+      <Modified>2013-11-11T15:04:55.726</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ted\Source\Repos\Web App Template\development-project\site2App\offline-example.html">
+      <PackagePath>offline-example.html</PackagePath>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+      <Modified>2013-11-11T15:27:52.268</Modified>
+=======
+      <Modified>2013-11-20T16:30:16.301</Modified>
+>>>>>>> release-0.6
+=======
+      <Modified>2013-11-25T14:35:49.987</Modified>
+>>>>>>> release-0.7
+=======
+      <Modified>2013-12-02T15:44:53.437</Modified>
+>>>>>>> release-1.0.0
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ted\Source\Repos\Web App Template\development-project\site2App\partials\page-loading.html">
+      <PackagePath>partials\page-loading.html</PackagePath>
+      <Modified>2013-12-19T15:47:37.532</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ted\Source\Repos\Web App Template\development-project\site2App\template\error.html">
+      <PackagePath>template\error.html</PackagePath>
+      <Modified>2013-11-11T15:04:55.743</Modified>
+    </AppxPackagedFile>
+<<<<<<< HEAD
+    <AppxPackagedFile Include="C:\Users\Jordan\Desktop\projects\Web%2520App%2520Template\development-project\site2App\template\offline.html">
+      <PackagePath>template\offline.html</PackagePath>
+<<<<<<< HEAD
+<<<<<<< HEAD
+      <Modified>2013-11-11T21:41:05.311</Modified>
+=======
+      <Modified>2013-11-20T16:30:16.334</Modified>
+>>>>>>> release-0.6
+=======
+      <Modified>2013-11-25T14:35:50.033</Modified>
+>>>>>>> release-0.7
+=======
+    <AppxPackagedFile Include="C:\Users\Ted\Source\Repos\Web App Template\development-project\site2App\template\notify-settings.html">
+      <PackagePath>template\notify-settings.html</PackagePath>
+      <Modified>2013-12-19T15:47:37.637</Modified>
+>>>>>>> release-1.0.0
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ted\Source\Repos\Web App Template\development-project\site2App\template\offline.html">
+      <PackagePath>template\offline.html</PackagePath>
+      <Modified>2013-12-02T15:44:53.611</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ted\Source\Repos\Web App Template\development-project\site2App\template\wat-wrapper.html">
+      <PackagePath>template\wat-wrapper.html</PackagePath>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+      <Modified>2013-11-11T15:27:52.278</Modified>
+=======
+      <Modified>2013-11-21T15:01:14.534</Modified>
+>>>>>>> release-0.6
+=======
+      <Modified>2013-11-26T15:37:54.346</Modified>
+>>>>>>> release-0.7
+=======
+      <Modified>2013-12-19T15:47:37.642</Modified>
+>>>>>>> release-1.0.0
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ted\Source\Repos\Web App Template\development-project\site2App\images\logo.scale-100.png">
+      <PackagePath>images\logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-11-11T15:04:55.727</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ted\Source\Repos\Web App Template\development-project\site2App\images\secondary-square.png">
+      <PackagePath>images\secondary-square.png</PackagePath>
+      <Modified>2013-12-19T15:47:37.523</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ted\Source\Repos\Web App Template\development-project\site2App\images\smalllogo.scale-100.png">
+      <PackagePath>images\smalllogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-11-11T15:04:55.728</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ted\Source\Repos\Web App Template\development-project\site2App\images\splashscreen.scale-100.png">
+      <PackagePath>images\splashscreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-11-11T15:04:55.730</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ted\Source\Repos\Web App Template\development-project\site2App\images\storelogo.scale-100.png">
+      <PackagePath>images\storelogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-11-11T15:04:55.731</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ted\Source\Repos\Web App Template\development-project\site2App\images\widelogo.scale-100.png">
+      <PackagePath>images\widelogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-11-11T15:04:55.732</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ted\Source\Repos\Web App Template\development-project\site2App\images\secondary-wide.jpg">
+      <PackagePath>images\secondary-wide.jpg</PackagePath>
+      <Modified>2013-12-19T15:47:37.526</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ted\Source\Repos\Web App Template\development-project\site2App\js\default.js">
+      <PackagePath>js\default.js</PackagePath>
+      <Modified>2013-11-11T15:04:55.733</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ted\Source\Repos\Web App Template\development-project\site2App\template\js\log.js">
+      <PackagePath>template\js\log.js</PackagePath>
+      <Modified>2014-01-03T15:36:57.786</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ted\Source\Repos\Web App Template\development-project\site2App\template\js\nav.js">
+      <PackagePath>template\js\nav.js</PackagePath>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+      <Modified>2013-11-11T15:27:52.270</Modified>
+=======
+      <Modified>2013-11-21T14:40:27.633</Modified>
+>>>>>>> release-0.6
+=======
+      <Modified>2013-11-25T14:44:10.864</Modified>
+>>>>>>> release-0.7
+=======
+      <Modified>2013-12-27T16:39:20.375</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ted\Source\Repos\Web App Template\development-project\site2App\template\js\NotificationHub.js">
+      <PackagePath>template\js\NotificationHub.js</PackagePath>
+      <Modified>2013-12-19T15:47:37.589</Modified>
+>>>>>>> release-1.0.0
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ted\Source\Repos\Web App Template\development-project\site2App\template\js\notify-settings.js">
+      <PackagePath>template\js\notify-settings.js</PackagePath>
+      <Modified>2013-12-19T15:47:37.608</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ted\Source\Repos\Web App Template\development-project\site2App\template\js\notify.js">
+      <PackagePath>template\js\notify.js</PackagePath>
+      <Modified>2013-12-27T16:39:20.381</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ted\Source\Repos\Web App Template\development-project\site2App\template\js\offline.js">
+      <PackagePath>template\js\offline.js</PackagePath>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+      <Modified>2013-11-11T15:27:52.271</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ted\Source\Repos\Web App Template\development-project\site2App\template\js\search.js">
+      <PackagePath>template\js\search.js</PackagePath>
+      <Modified>2013-11-11T15:27:52.272</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ted\Source\Repos\Web App Template\development-project\site2App\template\js\settings.js">
+      <PackagePath>template\js\settings.js</PackagePath>
+      <Modified>2013-11-11T15:27:52.274</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ted\Source\Repos\Web App Template\development-project\site2App\template\js\share.js">
+      <PackagePath>template\js\share.js</PackagePath>
+      <Modified>2013-11-11T15:04:55.748</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ted\Source\Repos\Web App Template\development-project\site2App\template\js\styles.js">
+      <PackagePath>template\js\styles.js</PackagePath>
+      <Modified>2013-11-11T15:27:52.275</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ted\Source\Repos\Web App Template\development-project\site2App\template\js\tiles.js">
+      <PackagePath>template\js\tiles.js</PackagePath>
+      <Modified>2013-11-11T15:04:55.753</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ted\Source\Repos\Web App Template\development-project\site2App\template\js\wat.js">
+      <PackagePath>template\js\wat.js</PackagePath>
+      <Modified>2013-11-11T21:48:57.470</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ted\Source\Repos\Web App Template\development-project\site2App\bin\Release\ReverseMap\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2013-11-11T21:48:36.842</Modified>
+=======
+      <Modified>2013-11-20T14:59:26.285</Modified>
+=======
+      <Modified>2013-11-21T19:55:54.931</Modified>
+>>>>>>> release-0.7
+=======
+      <Modified>2014-01-03T15:36:57.804</Modified>
+>>>>>>> release-1.0.0
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ted\Source\Repos\Web App Template\development-project\site2App\template\js\search.js">
+      <PackagePath>template\js\search.js</PackagePath>
+      <Modified>2013-12-27T16:39:20.386</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ted\Source\Repos\Web App Template\development-project\site2App\template\js\settings.js">
+      <PackagePath>template\js\settings.js</PackagePath>
+      <Modified>2013-12-27T16:39:20.390</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ted\Source\Repos\Web App Template\development-project\site2App\template\js\share.js">
+      <PackagePath>template\js\share.js</PackagePath>
+      <Modified>2013-12-27T16:39:20.395</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ted\Source\Repos\Web App Template\development-project\site2App\template\js\styles.js">
+      <PackagePath>template\js\styles.js</PackagePath>
+      <Modified>2013-12-19T15:47:37.622</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ted\Source\Repos\Web App Template\development-project\site2App\template\js\tiles.js">
+      <PackagePath>template\js\tiles.js</PackagePath>
+      <Modified>2013-12-27T16:39:20.402</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ted\Source\Repos\Web App Template\development-project\site2App\template\js\wat.js">
+      <PackagePath>template\js\wat.js</PackagePath>
+      <Modified>2014-01-06T15:29:47.221</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ted\Source\Repos\Web App Template\development-project\site2App\bin\Release\ReverseMap\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+<<<<<<< HEAD
+<<<<<<< HEAD
+      <Modified>2013-11-21T15:03:20.879</Modified>
+>>>>>>> release-0.6
+=======
+      <Modified>2013-11-26T16:52:38.257</Modified>
+>>>>>>> release-0.7
+=======
+      <Modified>2014-01-03T20:09:04.979</Modified>
+>>>>>>> release-1.0.0
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.WinJS.2.0\1.0\">
+      <Name>Microsoft.WinJS.2.0</Name>
+      <Version>1.0.9600.16408</Version>
+      <Architecture>Neutral</Architecture>
+      <FrameworkIdentity>Name=Microsoft.WinJS.2.0, MinVersion=1.0.9600.16408</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.WinJS.2.0\1.0\Microsoft.WinJS.2.0.appx</AppxLocation>
+      <MoreInfo>http://go.microsoft.com/fwlink/%3fLinkId=260891</MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

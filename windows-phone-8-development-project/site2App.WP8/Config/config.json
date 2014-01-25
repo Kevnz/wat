@@ -1,0 +1,39 @@
+{
+ "baseURL": "http://wat-docs.azurewebsites.net/",
+  "share": {
+    "enabled": true,
+    "title": "share",
+	"url": "{currentURL}",
+    "message": "Check out this lesson {url}"
+  }, 
+  "appBar": {
+    "enabled": true,
+    "buttons": [
+					{
+					"label":"home",
+					"icon": "home",
+					"iconUrl": "/Assets/Appbar/home.png",
+					"action": "home"
+				},
+	
+					{
+					"label":"refresh",
+					"icon": "refresh",
+					"iconUrl": "/Assets/Appbar/refresh.png",
+					"action": "refresh"
+				},	
+    ]
+  },
+
+  "settings": {
+    "enabled": true,
+	"feedbackEmail" : "myfeebackemail@mywebapp.com",
+	"feedbackSubject" : "URL has broken content",
+    "privacyUrl": "http://wat-docs.azurewebsites.net/About",
+    "title": "About",
+	"header": "Web App Template",
+	"HTMLText1": "The Web App Template deliver great mobile websites to your Windows Phone. Get convenient access to all of the site&apos;s mobile web features directly from your app list, plus the ability to pin a tile to your start screen.",
+	"HTMLText2": "",
+	"HTMLText3": "Add more content here"
+  }
+}

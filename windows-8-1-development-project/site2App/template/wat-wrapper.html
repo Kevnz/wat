@@ -1,0 +1,102 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>site2App</title>
+    <!--
+    Copyright (c) Microsoft Corporation
+
+    All rights reserved.
+
+    Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License.  You may obtain a copy of the License at http://www.apache.org/licenses/LICENSE-2.0
+
+    THIS CODE IS PROVIDED *AS IS* BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION ANY IMPLIED WARRANTIES OR CONDITIONS OF TITLE, FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABLITY OR NON-INFRINGEMENT.
+
+    See the Apache Version 2.0 License for specific language governing permissions and limitations under the License.
+
+            -->
+
+    <!-- WinJS references -->
+    <script src="//Microsoft.WinJS.2.0/js/base.js"></script>
+    <script src="//Microsoft.WinJS.2.0/js/ui.js"></script>
+    <link href="//Microsoft.WinJS.2.0/css/ui-light.css" rel="stylesheet" />
+    <!-- App Specific references -->
+    <script src="/js/default.js"></script>
+
+    <!-- Web App Template references -->
+
+    <link href="/template/css/base.css" rel="stylesheet" />
+
+    <script src="/template/js/wat.js"></script>
+    <script src="/template/js/log.js"></script>
+    <script src="/template/js/styles.js"></script>
+    <script src="/template/js/nav.js"></script>
+    <script src="/template/js/share.js"></script>
+    <script src="js/NotificationHub.js"></script>
+    <script src="/template/js/notify.js"></script>
+    <script src="/template/js/tiles.js"></script>
+    <script src="/template/js/settings.js"></script>
+    <script src="/template/js/header.js"></script>
+    <script src="/template/js/search.js"></script>
+    <script src="/template/js/offline.js"></script>
+
+    <script>
+        // Add initialization event handlers
+        WinJS.Application.addEventListener("activated", WAT.activationHandler, false);
+        window.addEventListener("DOMContentLoaded", function () {
+            WAT.init({
+                configFile: "config/config.json",
+                stage: document.getElementById("stage"),
+                webView: document.getElementById("main-view"),
+                offlineView: document.getElementById("offline-view"),
+                dialogView: document.getElementById("dialog-view"),
+                closeButton: document.getElementById("close"),
+                loadingWrapper: document.getElementById("loading-wrapper"),
+                // You can disable the extended splash screen by commenting out the line below...
+                extendedSplashScreen: document.getElementById("extendedSplashScreen"),
+                appBar: document.getElementById("appBar"),
+                navBar: document.getElementById("navBar"),
+                header: document.getElementById("header"),
+                backButton: document.getElementById("back"),
+                logo: document.getElementById("logo"),
+                title: document.getElementById("title"),
+                searchBox: document.getElementById("search-box")
+            });
+        }, false);
+    </script>
+</head>
+<body>
+    <div class="content">
+        <div id="header" class="header">
+            <div id="backbutton-wrapper" style="display: none">
+                <button id="back" class="win-backbutton">Back</button>
+            </div>
+            <div class="logoarea">
+                <img id="logo" />
+            </div>
+            <h1 id="title" class="titlearea win-type-ellipsis"></h1>
+            <div id="search-box" class="search-box">
+            </div>
+        </div>
+        <div class="stage" id="stage">
+            <x-ms-webview id="main-view"></x-ms-webview>
+            <x-ms-webview id="offline-view"></x-ms-webview>
+            <div id="loading-wrapper" class="loading-wrapper">
+                <progress id="page-load-progress" class="loading-progress"></progress>
+            </div>
+        </div>
+        <div>
+            <div id="navBar"></div>
+        </div>
+        <div data-win-control="WinJS.UI.AppBar" id="appBar"></div>
+        <div id="extendedSplashScreen" class="extendedSplashScreen">
+            <img class="extendedSplashImage" src="/images/splashscreen.scale-100.png" alt="Launching..." />
+            <progress class="loading-progress"></progress>
+        </div>
+        <div id="modal-stage" class="stage overlay-stage">
+            <x-ms-webview id="dialog-view" class="modal-content"></x-ms-webview>
+            <button id="close" class="win-closebutton">X</button>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,330 @@
+{
+<<<<<<< HEAD
+<<<<<<< HEAD
+    "templateVersion": ".4",
+	"baseURL": "http://www.ck12.org/student/",
+	"share": {
+		"enabled": true,
+		"title": "CK12",
+		"url": "{currentURL}",
+		"message": "Check out this lesson {url}"
+=======
+	"templateVersion": ".6",
+	"baseURL": "http://wat-docs.azurewebsites.net",
+=======
+	"homeURL": "http://wat-docs.azurewebsites.net",
+>>>>>>> release-1.0.0
+	"navigation": {
+		"hideOnPageBackButton": false,
+		"hideBackButtonOnMatch": [
+			"{baseURL}/Json#livetiles"
+		],
+		"pageLoadingPartial": "/partials/page-loading.html"
+	},
+	"errors": {
+	    "showAlertOnError": false,
+		"alertMessage": "Sorry, but there was an error. It has been logged. Please contact us if the issue continues.",
+		"redirectToErrorPage": true
+	},
+	"logging": {
+		"enabled": true,
+		"level": "log",
+		"disableWithoutDebugger": false,
+		"hideTagDisplay": true,
+		"ignoreTags": [
+			"winjs"
+		],
+		"logErrorsForIgnoredTags": true,
+		"overrideConsoleMethods": true,
+		"disableConsoleLog": false,
+		"fileLog": {
+			"enabled": true,
+			"level": "info",
+			"filename": "logs\\wat-docs_%D.log",
+			"format": "%L on Line %l of %f\r\n%D %T: %M (%t)",
+			"maxLogFiles": 7
+		}
+	},
+	"share": {
+		"enabled": true,
+		"title": "WAT Documentation",
+		"url": "{currentURL}",
+		"screenshot": true,
+		"message": "Check out the Web Application Template for Windows Store apps {url}"
+>>>>>>> release-0.6
+	},
+	"offline": {
+		"message": "It looks like you are offline. Please reconnect to use this application."
+	},
+	"appBar": {
+<<<<<<< HEAD
+<<<<<<< HEAD
+		"enabled": true,
+<<<<<<< HEAD
+		"buttons": [
+			{
+				"label": "Help",
+				"icon": "help",
+				"action": "https://ck12support.zendesk.com/home"
+			},
+			{
+				"label": "Join",
+				"icon": "contactpresence",
+				"action": "https://www.ck12.org/auth/signup?requestor=http%3A//www.ck12.org/&returnTo=http%3A//www.ck12.org/"
+			},
+			{
+				"label": "Sign-in",
+				"icon": "protecteddocument",
+				"action": "https://www.ck12.org/auth/signin"
+			}
+		]
+=======
+		"buttons": []
+>>>>>>> release-0.6
+=======
+		"enabled": false,
+=======
+		"enabled": true,
+>>>>>>> release-1.0.0
+		"buttons": [
+			{
+				"label": "Settings",
+				"icon": "edit",
+				"action": "settings"
+			}
+		]
+>>>>>>> release-0.7
+	},
+	"navBar": {
+		"enabled": true,
+		"maxRows": 2,
+		"buttons": [
+			{
+				"label": "Back",
+				"icon": "back",
+				"action": "back"
+			},
+			{
+				"label": "home",
+				"icon": "home",
+				"action": "home"
+			},
+			{
+<<<<<<< HEAD
+				"label": "Blog",
+				"icon": "world",
+				"action": "http://blog.ck12.org/blog"
+			},
+			{
+				"label": "About",
+				"icon": "help",
+				"action": "http://www.ck12.org/about/"
+			},
+			{
+				"label": "I am a Teacher",
+				"icon": "contact",
+				"action": "http://www.ck12.org/teacher/"
+=======
+				"label": "JSON Reference",
+				"icon": "library",
+				"action": "nested",
+				"children": [
+					{
+						"label": "navbar",
+						"icon": "link",
+						"action": "http://wat-docs.azurewebsites.net/Json#navigationbar"
+					},
+					{
+						"label": "appbar",
+						"icon": "link",
+						"action": "http://wat-docs.azurewebsites.net/Json#applicationbar"
+					},
+					{
+						"label": "share",
+						"icon": "link",
+						"action": "http://wat-docs.azurewebsites.net/Json#share"
+					}
+				]
+			},
+			{
+				"label": "About WAT",
+				"icon": "gotostart",
+				"action": "http://wat-docs.azurewebsites.net/About"
+			},
+			{
+				"label": "Getting Started",
+				"icon": "play",
+				"action": "http://wat-docs.azurewebsites.net/GetStarted"
+			},
+			{
+				"label": "Support",
+				"icon": "people",
+				"action": "http://wat-docs.azurewebsites.net/Support"
+<<<<<<< HEAD
+>>>>>>> release-0.6
+=======
+			},
+			{
+				"label": "Log Message",
+				"icon": "edit",
+				"action": "eval",
+				"data": "console.log('this was fired from within the webview:', window.location.href);"
+>>>>>>> release-0.7
+			}
+		]
+	},
+	"livetile": {
+		"enabled": true,
+<<<<<<< HEAD
+<<<<<<< HEAD
+		"interval": "10",
+		"tilePollFeed": "http://blog.ck12.org/CMS/UI/Modules/BizBlogger/rss.aspx?tabid=1129190&moduleid=2450993&maxcount=25&t=4472324ad727f2df9696bb5062421d47"
+=======
+		"periodicUpdate": 1
+>>>>>>> release-0.6
+=======
+		"periodicUpdate": 1,
+		"enableQueue": true,
+		"tilePollFeed": "http://wat-docs.azurewebsites.net/feed"
+>>>>>>> release-1.0.0
+	},
+	"notifications": {
+		"enabled": true,
+		"azureNotificationHub": {
+			"enabled": true,
+			"endpoint": "https://wat-demo.servicebus.windows.net/",
+			"secret": "bPQTTVcagkyDfsz3M+OIhwJNxP+Jy2pXDfmUomSUVa4=",
+			"path": "wat-demo",
+			"tags": [
+				"Live Tiles", "Tag 1", "Tag 2", "Tag 3"
+			]
+		}
+	},
+	"redirects": {
+		"enabled": true,
+<<<<<<< HEAD
+		"links": [
+			{
+				"link": "http://www.ck12.org/sat-exam-prep/",
+				"action": "showMessage: This resource is not available in the app.  Please visit our website."
+=======
+		"enableCaptureWindowOpen": true,
+		"refreshOnModalClose": true,
+		"rules": [
+			{
+				"pattern": "http://getbootstrap.com?",
+				"action": "showMessage",
+				"message": "Sorry, but you can't access this feature in the native app, please visit us online at http://wat-docs.azurewebsites.net"
+			},
+			{
+				"pattern": "*.microsoft.com*",
+				"action": "showMessage",
+				"message": "Redirecting you to the Microsoft website..."
+			},
+			{
+				"pattern": "http://msdn.microsoft.com/*",
+				"action": "popout"
+			},
+			{
+				"pattern": "{baseURL}/Json#search",
+				"action": "redirect",
+				"url": "http://bing.com"
+			},
+			{
+				"pattern": "*/drive_api/calculator/login",
+				"action": "modal",
+<<<<<<< HEAD
+				"hideCloseButton": false,
+				"closeOnMatch": "/drive_api/calculator/complete_login"
+>>>>>>> release-0.6
+=======
+				"hideCloseButton": true,
+				"closeOnMatch": "*/drive_api/calculator/complete_login"
+>>>>>>> release-0.7
+			}
+		]
+	},
+	"settings": {
+		"enabled": true,
+<<<<<<< HEAD
+		"privacyUrl": "http://www.ck12.org/about/technology-2/privacy-policy/",
+		"items": [
+			{
+				"title": "Terms of Use",
+				"page": "http://www.ck12.org/about/terms-of-use/"
+			},
+			{
+				"title": "Settings",
+				"page": "http://www.ck12.org/account/settings/",
+				"loadInApp": true
+=======
+		"privacyUrl": "http://wat-docs.azurewebsites.net/Privacy",
+		"items": [
+			{
+				"title": "Support",
+				"page": "http://wat-docs.azurewebsites.net/Support",
+				"loadInApp": true
+			},
+			{
+				"title": "Codeplex Site",
+				"page": "http://www.codeplex.com"
+>>>>>>> release-0.6
+			}
+		]
+	},
+	"styles": {
+		"setViewport": true,
+		"targetWidth": "",
+		"targetHeight": "800px",
+		"suppressTouchAction": false,
+<<<<<<< HEAD
+		"hiddenElements": [
+			"nav.top-bar-section", 
+			"#top-bar-left-section", 
+			"footer.ff4-compt", 
+			".landingpitch", 
+			"#sisterSites", 
+			"#benefits", 
+			"#LandingSearchForm", 
+			"#LandingHeader"
+		],
+		"customCssString": "body{-ms-content-zooming:none; padding-top:60px; height:auto} #contentwrap{margin-top:0px} .top-bar.row{height:70px} .resourceBG{margin-bottom:0px !important}"
+	},
+	"search": {
+		"enabled": true,
+		"searchURL": "http://www.ck12.org/search/?q="
+	},
+	"styleTheme": "light",
+	"secondaryPin": {
+		"enabled": true
+	}
+=======
+		"extendedSplashScreenBackground": "#464646",
+		"hiddenElements":[
+			"header"
+		],
+		"backButton": {
+			"borderColor": "#990000",
+			"color": "#990000"
+		},
+		"wrapperCssFile": "/css/wrapper-styles.css",
+		"customCssFile": "/css/injected-styles.css",
+		"customCssString": "body {padding:0;font-size: 14pt;} .container{margin-left:120px; margin-right:0px;} .bs-header{height: 140px;padding-left:0px;} .bs-header h1{margin:0;margin-top:10px;} .bs-header h1{margin-right:0;} .bs-header p{display:none;}"
+	},
+	"search": {
+		"enabled": true,
+		"searchURL": "http://wat-docs.azurewebsites.net/search/?query="
+	},
+	"secondaryPin": {
+        "enabled": true,
+		"buttonText": "Pin It!",
+		"squareImage": "/images/secondary-square.png",
+		"wideImage": "/images/secondary-wide.jpg"
+	},
+<<<<<<< HEAD
+	"styleTheme": "blue-dark"
+>>>>>>> release-0.6
+=======
+	"styleTheme": "dark"
+>>>>>>> release-0.7
+}

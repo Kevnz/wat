@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Notifications</title>
+</head>
+<body>
+    <script src="//Microsoft.WinJS.2.0/js/base.js"></script>
+    <script src="//Microsoft.WinJS.2.0/js/ui.js"></script>
+    <script src="js/notify-settings.js"></script>
+
+    <div id="templateDiv" data-win-control="WinJS.Binding.Template">
+        <div class="templateItem">
+            <div data-win-control="WinJS.UI.ToggleSwitch" data-win-bind="winControl.checked: subscribed; winControl.title: tag"></div>
+        </div>
+    </div>
+
+    <div id="pushDiv" data-win-control="WinJS.UI.SettingsFlyout" aria-label="Notifications" data-win-options="{settingsCommandId:'notifications'}">
+        <div class="win-header" style="background-color:#dbf9ff">
+            <button type="button" onclick="WinJS.UI.SettingsFlyout.show()" class="win-backbutton"></button>
+            <div class="win-label">Notifcations</div>
+            <img src="images/smallTile.png" style="position: absolute; right: 40px;" />
+        </div>
+        <div class="win-content">
+            <div id="templateControlRenderTarget"></div>
+        </div>
+    </div></body>
+</html>

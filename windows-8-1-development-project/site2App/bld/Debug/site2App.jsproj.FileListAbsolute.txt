@@ -1,0 +1,90 @@
+C:\Users\jeffburt\Documents\GitHub\site2App\site2App\site2App\bin\Debug\resources.pri
+C:\Users\jeffburt\Documents\GitHub\site2App\site2App\site2App\bin\Debug\AppxManifest.xml
+C:\Users\jeffburt\Documents\GitHub\site2App\site2App\site2App\bin\Debug\site2App.build.appxrecipe
+C:\Users\jeffburt\Documents\GitHub\site2App\site2App\site2App\bld\Debug\priconfig.xml
+C:\Users\jeffburt\Documents\GitHub\site2App\site2App\site2App\bld\Debug\priconfig.xml.intermediate
+C:\Users\jeffburt\Documents\GitHub\site2App\site2App\site2App\bld\Debug\layout.resfiles
+C:\Users\jeffburt\Documents\GitHub\site2App\site2App\site2App\bld\Debug\layout.resfiles.intermediate
+C:\Users\jeffburt\Documents\GitHub\site2App\site2App\site2App\bld\Debug\resources.resfiles
+C:\Users\jeffburt\Documents\GitHub\site2App\site2App\site2App\bld\Debug\resources.resfiles.intermediate
+C:\Users\jeffburt\Documents\GitHub\site2App\site2App\site2App\bld\Debug\pri.resfiles
+C:\Users\jeffburt\Documents\GitHub\site2App\site2App\site2App\bld\Debug\pri.resfiles.intermediate
+C:\Users\jeffburt\Documents\GitHub\site2App\site2App\site2App\bld\Debug\qualifiers.txt
+C:\Users\jeffburt\Documents\GitHub\site2App\site2App\site2App\bld\Debug\qualifiers.txt.intermediate
+C:\Users\jeffburt\Documents\GitHub\site2App\site2App\site2App\bld\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\jeffburt\Documents\GitHub\site2App\site2App\site2App\bld\Debug\ProjectArchitectures.txt
+C:\Users\jeffburt\Documents\GitHub\site2App\site2App\bin\Debug\resources.pri
+C:\Users\jeffburt\Documents\GitHub\site2App\site2App\bin\Debug\AppxManifest.xml
+C:\Users\jeffburt\Documents\GitHub\site2App\site2App\bin\Debug\site2App.build.appxrecipe
+C:\Users\jeffburt\Documents\GitHub\site2App\site2App\bld\Debug\priconfig.xml
+C:\Users\jeffburt\Documents\GitHub\site2App\site2App\bld\Debug\priconfig.xml.intermediate
+C:\Users\jeffburt\Documents\GitHub\site2App\site2App\bld\Debug\layout.resfiles
+C:\Users\jeffburt\Documents\GitHub\site2App\site2App\bld\Debug\layout.resfiles.intermediate
+C:\Users\jeffburt\Documents\GitHub\site2App\site2App\bld\Debug\resources.resfiles
+C:\Users\jeffburt\Documents\GitHub\site2App\site2App\bld\Debug\resources.resfiles.intermediate
+C:\Users\jeffburt\Documents\GitHub\site2App\site2App\bld\Debug\pri.resfiles
+C:\Users\jeffburt\Documents\GitHub\site2App\site2App\bld\Debug\pri.resfiles.intermediate
+C:\Users\jeffburt\Documents\GitHub\site2App\site2App\bld\Debug\qualifiers.txt
+C:\Users\jeffburt\Documents\GitHub\site2App\site2App\bld\Debug\qualifiers.txt.intermediate
+C:\Users\jeffburt\Documents\GitHub\site2App\site2App\bld\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\jeffburt\Documents\GitHub\site2App\site2App\bld\Debug\ProjectArchitectures.txt
+C:\Users\jeffburt\Documents\GitHub\Web App Template\development-project\site2App\bin\Debug\AppxManifest.xml
+C:\Users\jeffburt\Documents\GitHub\Web App Template\development-project\site2App\bin\Debug\site2App.build.appxrecipe
+C:\Users\jeffburt\Documents\GitHub\Web App Template\development-project\site2App\bld\Debug\priconfig.xml
+C:\Users\jeffburt\Documents\GitHub\Web App Template\development-project\site2App\bld\Debug\priconfig.xml.intermediate
+C:\Users\jeffburt\Documents\GitHub\Web App Template\development-project\site2App\bld\Debug\layout.resfiles
+C:\Users\jeffburt\Documents\GitHub\Web App Template\development-project\site2App\bld\Debug\layout.resfiles.intermediate
+C:\Users\jeffburt\Documents\GitHub\Web App Template\development-project\site2App\bld\Debug\resources.resfiles
+C:\Users\jeffburt\Documents\GitHub\Web App Template\development-project\site2App\bld\Debug\resources.resfiles.intermediate
+C:\Users\jeffburt\Documents\GitHub\Web App Template\development-project\site2App\bld\Debug\pri.resfiles
+C:\Users\jeffburt\Documents\GitHub\Web App Template\development-project\site2App\bld\Debug\pri.resfiles.intermediate
+C:\Users\jeffburt\Documents\GitHub\Web App Template\development-project\site2App\bld\Debug\qualifiers.txt
+C:\Users\jeffburt\Documents\GitHub\Web App Template\development-project\site2App\bld\Debug\qualifiers.txt.intermediate
+C:\Users\jeffburt\Documents\GitHub\Web App Template\development-project\site2App\bld\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\jeffburt\Documents\GitHub\Web App Template\development-project\site2App\bld\Debug\ProjectArchitectures.txt
+C:\Users\jeffburt\Documents\GitHub\Web App Template\development-project\site2App\bin\Debug\ReverseMap\resources.pri
+C:\Users\Jordan\Desktop\projects\Web%20App%20Template\development-project\site2App\bin\Debug\ReverseMap\resources.pri
+C:\Users\Jordan\Desktop\projects\Web%20App%20Template\development-project\site2App\bin\Debug\AppxManifest.xml
+C:\Users\Jordan\Desktop\projects\Web%20App%20Template\development-project\site2App\bin\Debug\site2App.build.appxrecipe
+C:\Users\Jordan\Desktop\projects\Web%20App%20Template\development-project\site2App\bld\Debug\priconfig.xml
+C:\Users\Jordan\Desktop\projects\Web%20App%20Template\development-project\site2App\bld\Debug\priconfig.xml.intermediate
+C:\Users\Jordan\Desktop\projects\Web%20App%20Template\development-project\site2App\bld\Debug\layout.resfiles
+C:\Users\Jordan\Desktop\projects\Web%20App%20Template\development-project\site2App\bld\Debug\layout.resfiles.intermediate
+C:\Users\Jordan\Desktop\projects\Web%20App%20Template\development-project\site2App\bld\Debug\resources.resfiles
+C:\Users\Jordan\Desktop\projects\Web%20App%20Template\development-project\site2App\bld\Debug\resources.resfiles.intermediate
+C:\Users\Jordan\Desktop\projects\Web%20App%20Template\development-project\site2App\bld\Debug\pri.resfiles
+C:\Users\Jordan\Desktop\projects\Web%20App%20Template\development-project\site2App\bld\Debug\pri.resfiles.intermediate
+C:\Users\Jordan\Desktop\projects\Web%20App%20Template\development-project\site2App\bld\Debug\qualifiers.txt
+C:\Users\Jordan\Desktop\projects\Web%20App%20Template\development-project\site2App\bld\Debug\qualifiers.txt.intermediate
+C:\Users\Jordan\Desktop\projects\Web%20App%20Template\development-project\site2App\bld\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Jordan\Desktop\projects\Web%20App%20Template\development-project\site2App\bld\Debug\ProjectArchitectures.txt
+C:\Users\Ted\Source\Repos\Web App Template\development-project\site2App\bin\Debug\ReverseMap\resources.pri
+C:\Users\Ted\Source\Repos\Web App Template\development-project\site2App\bin\Debug\AppxManifest.xml
+C:\Users\Ted\Source\Repos\Web App Template\development-project\site2App\bin\Debug\site2App.build.appxrecipe
+C:\Users\Ted\Source\Repos\Web App Template\development-project\site2App\bld\Debug\priconfig.xml
+C:\Users\Ted\Source\Repos\Web App Template\development-project\site2App\bld\Debug\priconfig.xml.intermediate
+C:\Users\Ted\Source\Repos\Web App Template\development-project\site2App\bld\Debug\layout.resfiles
+C:\Users\Ted\Source\Repos\Web App Template\development-project\site2App\bld\Debug\layout.resfiles.intermediate
+C:\Users\Ted\Source\Repos\Web App Template\development-project\site2App\bld\Debug\resources.resfiles
+C:\Users\Ted\Source\Repos\Web App Template\development-project\site2App\bld\Debug\resources.resfiles.intermediate
+C:\Users\Ted\Source\Repos\Web App Template\development-project\site2App\bld\Debug\pri.resfiles
+C:\Users\Ted\Source\Repos\Web App Template\development-project\site2App\bld\Debug\pri.resfiles.intermediate
+C:\Users\Ted\Source\Repos\Web App Template\development-project\site2App\bld\Debug\qualifiers.txt
+C:\Users\Ted\Source\Repos\Web App Template\development-project\site2App\bld\Debug\qualifiers.txt.intermediate
+C:\Users\Ted\Source\Repos\Web App Template\development-project\site2App\bld\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Ted\Source\Repos\Web App Template\development-project\site2App\bld\Debug\ProjectArchitectures.txt
+C:\Users\jeffburt\Documents\GitHub\Web App Template\windows-8-1-development-project\site2App\bin\Debug\ReverseMap\resources.pri
+C:\Users\jeffburt\Documents\GitHub\Web App Template\windows-8-1-development-project\site2App\bin\Debug\AppxManifest.xml
+C:\Users\jeffburt\Documents\GitHub\Web App Template\windows-8-1-development-project\site2App\bin\Debug\site2App.build.appxrecipe
+C:\Users\jeffburt\Documents\GitHub\Web App Template\windows-8-1-development-project\site2App\bld\Debug\priconfig.xml
+C:\Users\jeffburt\Documents\GitHub\Web App Template\windows-8-1-development-project\site2App\bld\Debug\priconfig.xml.intermediate
+C:\Users\jeffburt\Documents\GitHub\Web App Template\windows-8-1-development-project\site2App\bld\Debug\layout.resfiles
+C:\Users\jeffburt\Documents\GitHub\Web App Template\windows-8-1-development-project\site2App\bld\Debug\layout.resfiles.intermediate
+C:\Users\jeffburt\Documents\GitHub\Web App Template\windows-8-1-development-project\site2App\bld\Debug\resources.resfiles
+C:\Users\jeffburt\Documents\GitHub\Web App Template\windows-8-1-development-project\site2App\bld\Debug\resources.resfiles.intermediate
+C:\Users\jeffburt\Documents\GitHub\Web App Template\windows-8-1-development-project\site2App\bld\Debug\pri.resfiles
+C:\Users\jeffburt\Documents\GitHub\Web App Template\windows-8-1-development-project\site2App\bld\Debug\pri.resfiles.intermediate
+C:\Users\jeffburt\Documents\GitHub\Web App Template\windows-8-1-development-project\site2App\bld\Debug\qualifiers.txt
+C:\Users\jeffburt\Documents\GitHub\Web App Template\windows-8-1-development-project\site2App\bld\Debug\qualifiers.txt.intermediate
+C:\Users\jeffburt\Documents\GitHub\Web App Template\windows-8-1-development-project\site2App\bld\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\jeffburt\Documents\GitHub\Web App Template\windows-8-1-development-project\site2App\bld\Debug\ProjectArchitectures.txt
