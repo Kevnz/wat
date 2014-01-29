@@ -27,7 +27,7 @@ See the Apache Version 2.0 License for specific language governing permissions a
     window.WAT = {
 
         // Public variables
-        version: "1.0.2",
+        version: "1.0.3",
         config: {},
         options: {},
         wrapperDocHead: null,
