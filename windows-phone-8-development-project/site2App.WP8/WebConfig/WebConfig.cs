@@ -38,6 +38,7 @@ namespace site2App.WP8.Config
             [DataMember(Name = "navBar")]
             public NavBarConfig NavBar { get; set; }
 
+            // Future implementation stub
             //[DataMember(Name = "livetile")]
             //public LiveTileConfig LiveTile { get; set; }
 

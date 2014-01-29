@@ -122,9 +122,7 @@ namespace site2App.WP8
             {
                 BuildLocalizedApplicationBar();
 
-                // Start live tile background agent.
-                // TODO: Integrate with config.json
-                // StartPeriodicAgent();
+                // If we were going to start live tile background agent, we would do it here 
             }
 
             if (e.NavigationMode == NavigationMode.Back)
@@ -198,7 +196,6 @@ namespace site2App.WP8
 
             // The description is required for periodic agents. This is the string that the user will 
             // see in the background services Settings page on the device
-            // $TODO: Add app name to the description
             periodicTask.Description = "WebApp Background service to update live tiles";
 
             try
@@ -266,37 +263,42 @@ namespace site2App.WP8
                     {
                         foreach (BarButton bb in _webConfig.AppBar.Buttons)
                         {
-                            //ApplicationBarIconButton appBarButton = new ApplicationBarIconButton(new Uri(bb.Icon, UriKind.Relative));
-                            ApplicationBarIconButton appBarButton = new ApplicationBarIconButton();
+                            if (ApplicationBar.Buttons.Count < 4) { 
+                                ApplicationBarIconButton appBarButton = new ApplicationBarIconButton();
 
-                            if (!String.IsNullOrEmpty(bb.Icon) && iconEnums.IsIconAvailable(bb.Icon))
-                            {
-                                appBarButton.IconUri = iconEnums.GetIconUri(bb.Icon);
+                                if (!String.IsNullOrEmpty(bb.Icon) && iconEnums.IsIconAvailable(bb.Icon))
+                                    appBarButton.IconUri = iconEnums.GetIconUri(bb.Icon);
+                                else
+                                    appBarButton.IconUri = bb.IconUri;
+                                appBarButton.Text = bb.Label;
+                                appBarButton.Click += appBarButton_Click;
+                                ApplicationBar.Buttons.Add(appBarButton);
                             }
                             else
                             {
-                                appBarButton.IconUri = bb.IconUri;
-                            }
-                            appBarButton.Text = bb.Label;
-                            appBarButton.Click += appBarButton_Click;
-                            ApplicationBar.Buttons.Add(appBarButton);
-
-                            // If wizard is not used to generate config.json, then we need to break here.
-                            // $TODO: Figure out what to do for remaining buttons
-                            if (ApplicationBar.Buttons.Count == 4)
-                            {
-                                break;
+                                ApplicationBarMenuItem appBarMenu = new ApplicationBarMenuItem();
+                                appBarMenu.Text = bb.Label;
+                                appBarMenu.Click += appBarMenuItem_Click;
+                                ApplicationBar.MenuItems.Add(appBarMenu);
                             }
                         }
                     }
 
-                    // $TODO: Move this into a separate config setting, similar to Share?
-                    ApplicationBarIconButton appBarButtonPin = new ApplicationBarIconButton(new Uri("/Assets/AppBar/pin.png", UriKind.Relative));
-                    appBarButtonPin.Text = AppResources.PinToStart;
-                    appBarButtonPin.Click += appBarButtonPin_Click;
-                    ApplicationBar.Buttons.Add(appBarButtonPin);
+                    if (ApplicationBar.Buttons.Count < 4)
+                    {
+                        ApplicationBarIconButton appBarButtonPin = new ApplicationBarIconButton(new Uri("/Assets/AppBar/pin.png", UriKind.Relative));
+                        appBarButtonPin.Text = AppResources.PinToStart;
+                        appBarButtonPin.Click += appBarButtonPin_Click;
+                        ApplicationBar.Buttons.Add(appBarButtonPin);
+                    }
+                    else
+                    {
+                        ApplicationBarMenuItem  appBarMenuPin = new ApplicationBarMenuItem();
+                        appBarMenuPin.Text = AppResources.PinToStart;
+                        appBarMenuPin.Click += appBarMenuPin_Click;
+                        ApplicationBar.MenuItems.Add(appBarMenuPin);
+                    }
 
-                    // Assumes wizard has done valication to restrict total number of BarButton + Share <= 4
                     try
                     {
                         if (_webConfig.Share != null && _webConfig.Share.IsEnabled )
@@ -392,12 +394,32 @@ namespace site2App.WP8
             {
                 NavigationService.Navigate(new Uri("/SharePage.xaml?LinkURL=" + _currentUrl.OriginalString, UriKind.Relative));
                 return;
+            } 
+            // if the user pressed the pin as a menu item
+            else if (_webConfig.Share != null && _webConfig.Share.Title == item.Text)
+            {
+                NavigationService.Navigate(new Uri("/SharePage.xaml?LinkURL=" + _currentUrl.OriginalString, UriKind.Relative));
+                return;
             }
             else 
             {
+                List<BarButton> combinedBtns = new List<BarButton>();
+                if (_webConfig.AppBar != null && _webConfig.AppBar.Buttons != null)
+                {
+                    foreach (BarButton bb in _webConfig.NavBar.Buttons)
+                        combinedBtns.Add(bb);
+                }
+
                 if (_webConfig.NavBar != null && _webConfig.NavBar.Buttons != null)
                 {
                     foreach (BarButton bb in _webConfig.NavBar.Buttons)
+                        combinedBtns.Add(bb);
+                }
+
+
+                if (combinedBtns.Count > 0)
+                {
+                    foreach (BarButton bb in combinedBtns)
                     {
                         if (bb.Label == item.Text)
                         {
@@ -530,6 +552,18 @@ namespace site2App.WP8
 
         void appBarButtonPin_Click(object sender, EventArgs e)
         {
+            turnOffPinning();
+            ((ApplicationBarIconButton)sender).IsEnabled = false;
+        }
+
+        void appBarMenuPin_Click(object sender, EventArgs e)
+        {
+            turnOffPinning();
+            ((ApplicationBarMenuItem)sender).IsEnabled = false;
+        }
+
+        void turnOffPinning()
+        {
             // Pin to start
             StandardTileData std = new StandardTileData();
             std.BackgroundImage = new Uri("/Assets/ApplicationIcon.png", UriKind.Relative);
@@ -543,7 +577,6 @@ namespace site2App.WP8
             }
 
             ShellTile.Create(new Uri("/MainPage.xaml?StartURL=" + _currentUrl.OriginalString, UriKind.Relative), std);
-            ((ApplicationBarIconButton)sender).IsEnabled = false;
         }
 
         #endregion
@@ -731,7 +764,6 @@ namespace site2App.WP8
 
                             if (!e.Cancel)
                             {
-                                // Temporary workaround to get Video working for CNBC & bloomberg 
                                 string cnbcVideoUri = HttpUtility.UrlEncode("http://cnbc.rnmd.net/playVideo").ToLower();
                                 string escapedBloombergVideoUri = "http://cdn.videos.bloomberg.com";
 
@@ -751,7 +783,6 @@ namespace site2App.WP8
             }
             if (!e.Cancel)
             {
-                // Bug in WP8 SL WebBrowser control. Fixed in the next release.
                 if (e.Uri.Scheme == "mailto" || e.Uri.Scheme == "tel")
                 {
                     if (e.Uri.Scheme == "tel" && (_nonHttpUri == null || _nonHttpUri.OriginalString != e.Uri.OriginalString))

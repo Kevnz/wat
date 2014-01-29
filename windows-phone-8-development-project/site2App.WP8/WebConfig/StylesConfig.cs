@@ -57,7 +57,6 @@ namespace site2App.WP8.Config
             // identify the hidden elements
             if (HiddenElements.Count != 0)
             {
-                string hiddenElementsAddition = "";
                 foreach (string s in HiddenElements)
                     _sb.Append(s + ",");
                 _sb.Remove(_sb.Length - 2, 1);
